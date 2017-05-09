@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Jar
+Bundle-SymbolicName: com.smartbuilder.axon.jar.xuggler
+Bundle-Version: 1.0.0
+Bundle-ClassPath: xuggle-xuggler-5.4.jar
+Export-Package: com.xuggle.ferry,
+ com.xuggle.mediatool,
+ com.xuggle.mediatool.demos,
+ com.xuggle.mediatool.event,
+ com.xuggle.xuggler,
+ com.xuggle.xuggler.demos,
+ com.xuggle.xuggler.io,
+ com.xuggle.xuggler.video
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: org.slf4j.api;bundle-version="1.6.4"
