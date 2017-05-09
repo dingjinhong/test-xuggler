@@ -323,7 +323,7 @@ public class ViewPart1 extends ViewPart {
 	             path=path.substring(path.indexOf("/")+1,path.length());
 	       } catch (IOException e) {
 	             path="";
-	             e.printStackTrace();
+	             e.printStackTrace();//master
 	       }
 	       return path;
 	}
