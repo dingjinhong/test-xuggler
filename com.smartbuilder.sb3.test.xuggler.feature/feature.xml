@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.smartbuilder.sb3.test.xuggler.feature"
+      label="Feature"
+      version="1.0.0.qualifier"
+      provider-name="SMARTBUILDER">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import plugin="org.slf4j.api" version="1.6.4" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="com.smartbuilder.axon.jar.xuggler" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.commons.io" version="2.0.1" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="com.smartbuilder.axon.jar.xuggler"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="com.smartbuilder.sb3.test.xuggler"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
